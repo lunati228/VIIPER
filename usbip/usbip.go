@@ -5,6 +5,9 @@ import (
 	"io"
 )
 
+// WindowsClientVersion pins the driver/utility ABI used by this helper build.
+const WindowsClientVersion = "0.9.8.1"
+
 // Wire constants (network byte order / big-endian)
 const (
 	Version = 0x0111

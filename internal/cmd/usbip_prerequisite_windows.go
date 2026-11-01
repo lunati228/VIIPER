@@ -11,10 +11,12 @@ import (
 	"path/filepath"
 	"strings"
 	"time"
+
+	"github.com/Alia5/VIIPER/usbip"
 )
 
 const (
-	requiredUSBIPVersion  = "0.9.7.7"
+	requiredUSBIPVersion  = usbip.WindowsClientVersion
 	usbipProbeTimeout     = 10 * time.Second
 	usbipPipeDrainTimeout = 250 * time.Millisecond
 )
